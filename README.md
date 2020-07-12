@@ -18,6 +18,7 @@ Here are some ideas to get you started:
 # 📫 How to reach me:
 
 - Twitter: [@thangchung](https://twitter.com/thangchung)
-- Medium Blog: [thangchung](https://medium.com/@thangchung)
-- StackOverflow: [thangchung](https://stackoverflow.com/users/525811/thangchung)
 - Dev.to: [thangchung](https://dev.to/thangchung)
+- Medium Blog: [thangchung](https://medium.com/@thangchung)
+- Linkedin: [thangchung](https://www.linkedin.com/in/thang-chung-2b475614)
+- StackOverflow: [thangchung](https://stackoverflow.com/users/525811/thangchung)
