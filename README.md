@@ -1,4 +1,4 @@
-### Hi there 👋
+# 👋  Hi, I'm Thang Chung - @thangchung
 
 <!--
 **thangchung/thangchung** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +14,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+# 📫 How to reach me:
+
+- Twitter: [@thangchung](https://twitter.com/thangchung)
+- Medium Blog: [thangchung](https://medium.com/@thangchung)
+- StackOverflow: [thangchung](https://stackoverflow.com/users/525811/thangchung)
+- Dev.to: [thangchung](https://dev.to/thangchung)
