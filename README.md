@@ -22,3 +22,5 @@ Here are some ideas to get you started:
 - Medium Blog: [thangchung](https://medium.com/@thangchung)
 - Linkedin: [thangchung](https://www.linkedin.com/in/thang-chung-2b475614)
 - StackOverflow: [thangchung](https://stackoverflow.com/users/525811/thangchung)
+
+<a href="https://www.buymeacoffee.com/thangchung" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-green.png" alt="Buy Me A Beer" style="height: 51px !important;width: 217px !important;" ></a>
