@@ -3,8 +3,12 @@
 - https://github.com/yangshun/tech-interview-handbook/blob/master/experimental/design/README.md
 - https://github.com/donnemartin/system-design-primer
 
+# Software architecture
+- https://github.com/chanakaudaya/solution-architecture-patterns
+
 # DevOps
 - https://github.com/Artemmkin/infrastructure-as-code-tutorial
+- https://github.com/bregman-arie/devops-exercises
 
 # Data engineering
 - https://github.com/andkret/Cookbook
