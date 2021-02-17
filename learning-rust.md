@@ -1,6 +1,7 @@
 # Learning resources
 - https://doc.rust-lang.org/stable/book/
 - https://rust-lang.github.io/async-book/
+- https://github.com/rust-unofficial/patterns
 - https://aml3.github.io/RustTutorial/html/toc.html
 - https://github.com/inancgumus/learnrust
 - https://nnethercote.github.io/perf-book/title-page.html
