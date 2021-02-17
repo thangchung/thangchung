@@ -25,12 +25,15 @@ Here are some ideas to get you started:
 - Linkedin: [thangchung](https://www.linkedin.com/in/thang-chung-2b475614)
 - StackOverflow: [thangchung](https://stackoverflow.com/users/525811/thangchung)
 
+⚡ Creator of [Vietnam Microservices Group](https://www.facebook.com/groups/645391349250568) and [Viet Rustacean Group](https://www.facebook.com/groups/434476537616923)
+
+🌱 On the road to becoming a Rustacean at [learning-rust](learning-rust.md)
+
 <p align="left">
   <!--<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thangchung&layout=compact" alt="thangchung" />&nbsp;-->
   <img src="https://github-readme-stats.vercel.app/api?username=thangchung&show_icons=true&count_private=true&theme=algolia" alt="thangchung" />
 </p>
 
-On the road to becoming a Rustacean at [learning-rust](learning-rust.md)
 
 
 <!--
