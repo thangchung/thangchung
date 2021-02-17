@@ -25,42 +25,9 @@
 - https://cheats.rs/
 
 # Project structure and samples
+- https://github.com/jsdw/highscore
 - https://github.com/LukeMathWalker/build-your-own-jira-with-rust
-
-# Microservices
-- http://www.goldsborough.me/rust/web/tutorial/2018/01/20/17-01-11-writing_a_microservice_in_rust/
-
-```rust
-use hyper::service::{make_service_fn, service_fn};
-use hyper::{Body, Request, Response, Server};
-use std::{convert::Infallible, net::SocketAddr};
-
-#[derive(Clone, Copy)]
-struct ApiServer {}
-
-impl ApiServer {
-    pub async fn route(&mut self, req: Request<Body>) -> Result<Response<Body>, Infallible> {
-        let mut response = Response::new(Body::empty());
-        *response.body_mut() = req.into_body();
-
-        Ok(response)
-    }
-}
-
-#[tokio::main]
-async fn main() {
-    let mut api = ApiServer {};
-
-    let make_svc = make_service_fn(move |_conn| async move {
-        Ok::<_, Infallible>(service_fn(move |req| async move { api.route(req).await }))
-    });
-
-    let addr = SocketAddr::from(([127, 0, 0, 1], 3000));
-
-    let server = Server::bind(&addr).serve(make_svc);
-
-    if let Err(e) = server.await {
-        eprintln!("server error: {}", e);
-    }
-}
-```
+- https://github.com/saschagrunert/webapp.rs
+- https://github.com/actix/examples
+- https://github.com/LemmyNet/lemmy
+- https://github.com/goldsborough/microservice-rs
