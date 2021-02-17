@@ -7,6 +7,9 @@
 - https://nnethercote.github.io/perf-book/title-page.html
 - https://github.com/RustBeginners/awesome-rust-mentors
 
+# Style guide
+- https://pingcap.github.io/style-guide/rust/
+
 # Articles
 - https://www.possiblerust.com/
 - https://github.com/sidkshatriya/me/blob/master/001-rd-intro.md
