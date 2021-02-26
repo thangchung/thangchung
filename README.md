@@ -34,13 +34,7 @@ Here are some ideas to get you started:
 
 # 📫 How to reach me:
 
-- Twitter: [@thangchung](https://twitter.com/thangchung)
-- Dev.to: [thangchung](https://dev.to/thangchung)
-- Medium: [thangchung](https://medium.com/@thangchung)
-- Linkedin: [thangchung](https://www.linkedin.com/in/thang-chung-2b475614)
-- StackOverflow: [thangchung](https://stackoverflow.com/users/525811/thangchung)
-- SlideShare: [thangchung](https://www.slideshare.net/thangchung)
-- SpeakerDeck: [thangchung](https://speakerdeck.com/thangchung)
+[Twitter](https://twitter.com/thangchung), [Dev.to](https://dev.to/thangchung), [Medium](https://medium.com/@thangchung), [Linkedin](https://www.linkedin.com/in/thang-chung-2b475614), [StackOverflow](https://stackoverflow.com/users/525811/thangchung), [SlideShare](https://www.slideshare.net/thangchung), [SpeakerDeck](https://speakerdeck.com/thangchung)
 
 <p align="left">
   <!--<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thangchung&layout=compact" alt="thangchung" />&nbsp;-->
