@@ -17,21 +17,20 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-- 😄I'm a [Microsoft Azure MVP](https://mvp.microsoft.com/en-us/PublicProfile/5003604?fullName=Thang%20Chung)
-- ⚡I'm a creator: 
-  - [Vietnam Microservices](https://www.facebook.com/groups/645391349250568)
-  - [Vietnam Rustacean](https://www.facebook.com/groups/434476537616923)
-- 🌱I'm on the road to becoming a Rustacean at [learning-rust](learning-rust.md)
+😄I'm a [Microsoft Azure MVP](https://mvp.microsoft.com/en-us/PublicProfile/5003604?fullName=Thang%20Chung). ⚡I'm a creator of [Vietnam Microservices](https://www.facebook.com/groups/645391349250568)
+ and [Vietnam Rustacean](https://www.facebook.com/groups/434476537616923) groups on Facebook.
 
 # 🔭 Languages and Tools:
 
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/93d8a67084f94b2a444e510199a6e7622e5b09a3/topics/dotnet/dotnet.png"></code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png"></code>
 <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
 <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rust/rust.png"></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
 <code><img height="32" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/graphql/graphql.png"></code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/3fd951e49a8e2af94627092d80c236c00df95ae3/topics/grpc/grpc.png"></code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
 <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kubernetes/kubernetes.png"></code>
+
 
 # 📫 How to reach me:
 
@@ -47,8 +46,6 @@ Here are some ideas to get you started:
   <!--<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thangchung&layout=compact" alt="thangchung" />&nbsp;-->
   <img src="https://github-readme-stats.vercel.app/api?username=thangchung&show_icons=true&count_private=true&theme=algolia" alt="thangchung" />
 </p>
-
-
 
 <!--
 <a href="https://www.buymeacoffee.com/thangchung" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-green.png" alt="Buy Me A Beer" style="height: 51px !important;width: 217px !important;" ></a>
