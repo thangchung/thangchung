@@ -41,6 +41,8 @@ Here are some ideas to get you started:
   <img src="https://github-readme-stats.vercel.app/api?username=thangchung&show_icons=true&count_private=true&theme=algolia" alt="thangchung" />
 </p>
 
+![visitors](https://visitor-badge.glitch.me/badge?page_id=thangchung.thangchung)
+
 <!--
 <a href="https://www.buymeacoffee.com/thangchung" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-green.png" alt="Buy Me A Beer" style="height: 51px !important;width: 217px !important;" ></a>
 -->
