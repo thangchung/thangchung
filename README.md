@@ -17,14 +17,14 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-🔭 I'm working for [NashTech](https://www.nashtechglobal.com) company.
+👯 I'm working for [NashTech](https://www.nashtechglobal.com) company.
 
-✨ I proudly become a [Microsoft Azure MVP](https://mvp.microsoft.com/en-us/PublicProfile/5003604?fullName=Thang%20Chung) in 2020 and so far.
+✨ I have proudly become [Microsoft Azure MVP](https://mvp.microsoft.com/en-us/PublicProfile/5003604?fullName=Thang%20Chung) since 2020.
 
-👯 I'm also the founders of [Vietnam Microservices](https://www.facebook.com/groups/645391349250568) and [Vietnam Rustacean](https://www.facebook.com/groups/434476537616923) groups.
+🌱 I'm also the founders of [Vietnam Microservices](https://www.facebook.com/groups/645391349250568) and [Vietnam Rustacean](https://www.facebook.com/groups/434476537616923) groups.
 
-[<img alt="github" src="https://img.shields.io/badge/github-thangchung-8da0cb?style=for-the-badge&labelColor=555555&logo=github" height="20">](https://github.com/thangchung)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=thangchung.thangchung)
+[<img alt="github" src="https://img.shields.io/badge/github-thangchung-8da0cb?style=for-the-badge&labelColor=555555&logo=github" height="20">](https://github.com/thangchung)
 
 # ⚡ Favorite languages and tools
 
