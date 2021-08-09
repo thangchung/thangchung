@@ -1,0 +1,42 @@
+# Design Modern Distributed System
+- Contract
+  - CRQS
+    - Command
+      - Modify system state
+      - Usually need to be handled via Durable communication
+      - Must be idempodent - f(x) = f(f(x))
+    - Query
+      - Don't modify system state
+      - Can be handled via any communication type, but often best on Transient
+      - Automatically Idempodent because they don't change state
+- Communication
+  - Communication styles
+    - Transient (non durable solution)
+      - HTTP
+      - TCP
+      - UDP
+    - Queued
+      - RabbitMQ
+      - AMQP
+      - ActiveMQ
+      - AmazonMQ
+    - Streamed
+      - Kafka
+      - Event Store
+    - Historic
+      - Jinaga
+      - GIT
+- Coordination
+  - Imperative Consumers
+    - One handler to receive the message and store it to database
+  - Workflows
+    - System A, system B, and system C colloboration (no state)
+  - State machines
+    - DSL with state (MassTransit - Sagas)
+- Compensation
+  - Exception management
+  - Routing Slip pattern
+- Correlation
+  - Logs - centralized logs
+  - Tracing (what have been going on)
+  - Distributed tracing on message broker or stream system
