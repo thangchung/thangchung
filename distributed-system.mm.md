@@ -1,0 +1,172 @@
+# Design Modern Distributed System
+- Contract
+  - CRQS
+    - Command
+      - Modify system state
+      - Usually need to be handled via Durable communication
+      - Must be idempodent - f(x) = f(f(x))
+    - Query
+      - Don't modify system state
+      - Can be handled via any communication type, but often best on Transient
+      - Automatically Idempodent because they don't change state
+- Communication
+  - Communication styles
+    - Transient (non durable solution)
+      - HTTP
+      - TCP
+      - UDP
+    - Queued
+      - RabbitMQ
+      - AMQP
+      - ActiveMQ
+      - AmazonMQ
+    - Streamed
+      - Kafka
+      - Event Store
+    - Historic
+      - Jinaga
+      - GIT
+- Coordination
+  - Imperative Consumers
+    - One handler to receive the message and store it to database
+  - Workflows
+    - System A, system B, and system C colloboration (no state)
+  - State machines
+    - DSL with state (MassTransit - Sagas)
+- Compensation
+  - Exception management
+  - Routing Slip pattern
+- Correlation
+  - Logs - centralized logs
+  - Tracing (what have been going on)
+  - Distributed tracing on message broker or stream system
+# Distributed System
+- Concept: A collection of independent computers that appear to its users as one computer- Andrew Tannenbaum
+- Attributes
+  - The computers operate concurrently
+  - The computers fail concurrently
+  - The computers do not share a global clock
+- 3 topics to solve
+  - Storage: Relational/Mongo, Cassandra, HDFS
+    - Single-Master Storage
+    - Read replication
+      - Complexity (sharding on database level or ORM)
+      - Consistency guarantee -> Eventual Consistency
+      - Lots more read then write
+    - Sharding: when write is more than read
+      - More complexity
+      - Limited data model (good for SaaS apps)
+      - Limited data access patterns (online trasactional query, cross-query on shards)
+    - Consistency Hashing: distributed hash table (DHT)
+      - Problems with Consistency
+        - R + W > N
+  - Computation: Hadoop, Spark, Storm
+  - Synchronization: NTP (network time protocol), vector clocks
+  - Consensus: Paxos, Zookeeper
+  - Messaging: Kafka
+# History of Distributed System
+- 1975: RFC 684
+  - Local Calls & Remote Calls have different Cost profiles
+  - Remote Calls can be delayed or never return
+  - Asynchronous Message Passing is the better model because it makes the passing of messages explicit
+- 1976: RFC 707 - A high level framework for network-based resource sharing
+  - Generalization to functions
+    - Generalize TELNET and FPT's call-and-response model to functions from an application-specific grammar
+    - One port for all protocols
+  - Control flow critique
+    - RPC only allows for sequential composition
+- 1984: Implementing Remote Procedure Calls
+- 1988: propose the following test for a general-purpose RPC system (multiple nodes)
+- 1989: RFC 1094 - NFS
+  - There is, in fact, no protocol that guarantees that both sides definitely and unambiguously know that the RPC is over in the face of a lossy network
+  - First major distributed filesystems that gained popularity and adhered to the existing UNIX filesystem API
+- 1991: CORBA - Common Object Request Broker Architecture
+  - Support Cross-languages, Cross address space. Interoperability for OOP
+  - Interface Definition Language (IDL): used to generate stubs for remote object and mappings between different primitive types
+  - "It's just a Mapping problem": remote to local exception mapping, remote to local method invocation
+- 1994: The notes of Distributed System - it is the thesis of this note that this unified view of objects in mistaken - Jim Waldo
+
+# SCALABILITY, AVAILABILITY & STABILITY PATTERNS
+- Availability
+  - Replication
+    - Master-Slave
+    - Master-Master
+    - Buddy replication (peer replication)
+  - Fail-over
+- Stability
+  - Circuit breaker
+  - Timeouts
+  - Let it crash/Supervisors
+  - Crash early
+  - Bulkheads
+  - Steady state (clean up resources)
+  - Throttling
+    - SEDA
+- Scalability
+  - State
+    - Distributed Caching
+      - Write-behind
+      - Write-through
+      - Eviction policies
+        - TTL
+        - FIFO
+        - LIFO
+      - Peer to peer
+    - Data grids
+      - In-memory storage
+      - Durable storage
+    - Service of Record
+      - NOSQL
+        - Key Value databases
+        - Document databases
+        - Graph databases
+        - Datastructure databases
+      - RDBMS
+        - Sharding
+          - Partitioning
+          - Replication
+        - Denormalization
+        - ORM + Rich domain model antipattern
+    - HTTP caching
+      - Reverse Proxy
+      - CDN
+    - CAP theoroem
+      - Consistency/Atomic data
+      - Eventually Consisten data
+    - Concurrency
+      - Message Passing Concurrency
+      - Software Transactional Memory
+      - Dataflow Concurrency
+      - Shared-State Concurrency
+    - Partitioning
+    - Replication
+  - Behavior
+    - Compute Grids
+    - Event-driven Architecture
+      - Messaging
+        - Publish-Subscribe
+        - Point-to-Point
+        - Store-Forward (Mediator)
+        - Request-Reply
+      - Actors
+        - Fire-Forget
+        - Fire-Receive-Eventually
+      - Enterprise Service Bus
+      - Domain Events
+      - Event Stream Processing
+      - Event Sourcing
+      - Command & Query Responsibility Segregation (CQRS)
+    - Load-balancing
+      - Round-robin allocation
+      - Random allocation
+      - Weighted allocation
+      - Dynamic load balancing
+        - Work-stealing
+        - Work-donation
+        - Queue-depth querying
+    - Parallel Computing
+      - SPMD pattern
+      - Master/Worker pattern
+      - Loop Parallelism pattern
+      - Fork/Join patterns
+      - MapReduce pattern
