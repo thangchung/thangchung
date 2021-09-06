@@ -64,27 +64,6 @@
   - Synchronization: NTP (network time protocol), vector clocks
   - Consensus: Paxos, Zookeeper
   - Messaging: Kafka
-# History of Distributed System
-- 1975: RFC 684
-  - Local Calls & Remote Calls have different Cost profiles
-  - Remote Calls can be delayed or never return
-  - Asynchronous Message Passing is the better model because it makes the passing of messages explicit
-- 1976: RFC 707 - A high level framework for network-based resource sharing
-  - Generalization to functions
-    - Generalize TELNET and FPT's call-and-response model to functions from an application-specific grammar
-    - One port for all protocols
-  - Control flow critique
-    - RPC only allows for sequential composition
-- 1984: Implementing Remote Procedure Calls
-- 1988: propose the following test for a general-purpose RPC system (multiple nodes)
-- 1989: RFC 1094 - NFS
-  - There is, in fact, no protocol that guarantees that both sides definitely and unambiguously know that the RPC is over in the face of a lossy network
-  - First major distributed filesystems that gained popularity and adhered to the existing UNIX filesystem API
-- 1991: CORBA - Common Object Request Broker Architecture
-  - Support Cross-languages, Cross address space. Interoperability for OOP
-  - Interface Definition Language (IDL): used to generate stubs for remote object and mappings between different primitive types
-  - "It's just a Mapping problem": remote to local exception mapping, remote to local method invocation
-- 1994: The notes of Distributed System - it is the thesis of this note that this unified view of objects in mistaken - Jim Waldo
 
 # SCALABILITY, AVAILABILITY & STABILITY PATTERNS
 - Availability

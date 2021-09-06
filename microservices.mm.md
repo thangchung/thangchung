@@ -1,0 +1,59 @@
+# MSA Roadmap
+- Docker
+  - What: Docker is an open-source platform for containerizing your applications, with the libraries, and dependencies that your application needs to run in various environments. with the help of Docker, development teams are able to package applications into containers.
+  - Why: Docker is one of the tools to containerize applications, Which means you are also able to create containers without using Docker, The real benefits of Docker is to make this process easier, safer, and much simpler.
+  - Tools: Docker Inc, PodMan
+- Container orchestration
+  - What: After you containerize your application, you will need some tools for managing containerized applications for doing some manual and automated operations like horizontal scaling.
+  - Why:
+    - These tools provide some services for your application management like automated load-balancing, guarantee high service availability.
+    - This kind of service is done by defining several manager nodes, and in case of any failure in one node manager, the other managers can keep the application services available.
+  - Tools: Kubernetes or K8s, Docker Swarm
+- Docker container management
+  - What: Managing Docker environment, configuration management, and providing the environment security, etc. These concerns can be centralized and automated by a docker container management tool.
+  - Why: A Docker container management tool provides a GUI-based tool for users, and they do not have to deal with CLI which is not comfortable for all users. These tools give developers a rich UI to build and publish their images, also make it much easier to do some operational tasks such as services horizontally scaling by providing a simplified user interface.
+  - Tools: Portainer, DockStation, Kitematic, Rancher...
+- API gateway
+  - What: An API gateway can be considered as an API management tool that works as a middleware between your application services and different clients. An API gateway can manage many things such as:
+    - Routing: gateway receives all API requests and forwards them to the destination services
+    - Logging: you will be able to logs all the requests in one place
+    - Authorization: check if you are as a user are eligible to access the service or not, if not the request can be short-circuited
+    - Performance profiling: you can estimate every request execution time and check your application bottlenecks
+    - Caching: with handling your caching at the gateway level, you would eliminate so much traffic on your services
+    - In fact, It works as a reverse proxy, and clients just need to know about your gateway, and application services can be hidden from the outside
+  - Why:
+    - Without an API gateway, you may need to do some cross-cutting concerns in every service, for example, if you want to log the request and response for services
+    - Besides, if your application consists of several services, your client needs to know about each service address, and in case of changing a service address, several places should be updated
+  - Tools: Kong, Ocelot...
+- Load Balancing
+  - What:
+    - One of the most important reasons that we have chosen the microservice architecture is scalability, Which means we will be able to handle more requests by running more instances of our services, but the question is, which instance should receive requests or How do clients know which instance of service should handle the requests?
+    - The answer to these questions is Load Balancing. Load Balancing means sharing the income traffic between a service instance.
+  - Why: In order to scale your independent services, you need to run several instances of the services. With a load balancer, clients do not need to know the right instances which serving
+  - Tools: Traefik, NGINX, Seesaw...
+- Service discovery
+  - What: As your application services count getting more and more, services need to know each other service instance addresses, but in large applications with lots of services, this cannot be handled. So we need service discovery which is responsible to provide all components addresses in your application, they could easily send a request to the service discovery service and get the available services instance address.
+  - Why:
+    - When you can have several services in your application, service discovery is a must-have for your application.
+    - Your application services' don't need to know each service instance address, it means service discovery paves this way for you.
+  - Tools: Consul, Zookeeper, Eureka, etcd and Keepalived
+- Event Bus
+  - What:
+    - In microservice architecture pattern, you would use two different types of communication, Sync and Async communication
+    - Sync communication means services call each other through HTTP call or GRPC call.
+    - Async communication means services interact with each other via a message bus or an event bus, It means there is no direct connection between services.
+    - While your architecture can use both communication styles simultaneously, for instance in an online shop example you can send a message whenever an order is registered and those services which have subscribed to a specific channel will receive the message. But sometimes you may need some real-time inquiry, for instance, you need to know the quantity of an item, you may use GRPC or HTTP call between services to get the response.
+  - Why: If you want to have a scalable application with several services, one of the principles you would follow is to create loosely coupled services that interact with each other through an event bus. Also, if you need to create an application that is able to plug in a new service to receive a series of specific messages, you need to use an event bus
+  - Tools: RabbitMQ, Kafka
+- Logging
+  - What: When using a microservice architecture pattern it’s better to centralize your services logs. These logs would be used in debugging a problem or aggregating logs according to their types for analytical usages.
+  - Why: In case of any need to debug a request, you may face difficulty if you do not gather services logs in one place. You are also able to correlate the logs related to a specific request with a unique correlation Id. It means all logs in different services related to a request will be accessible by this correlation Id.
+  - Tools: Elastic Logstash
+- Monitoring And Alerting
+  - What: In a microservice architecture, if you want to have a reliable application or service you have to monitor the functionality, performance, communication, and any other aspect of your application in order to achieve a responsible application.
+  - Why: You need to monitor the overall functionality and services health, also need to monitor performance bottlenecks and prepare a plan to fix them. Optimize user experience by decreasing downtime of your service by defining early alerts for your services in critical points. Monitor overall resource consumption of services, when there are under heavy load and etc.
+  - Tools: Prometheus, Kibana, Grafana
+- Distributed tracing
+  - What: Debugging is always one of the developers' concerns, As you, all have the experience to trace or debug a monolithic. It's very straightforward and easy, But when it comes to microservice architecture, because a request may be passed through different services, which makes it difficult to debug and trace because the codebase is not in one place, so here distributed tracing tool can be helpful.
+  - Why: Without a distributed tracing tool it's frustrating or maybe impossible to trace your request through different services. With these tools, you can easily trace requests and events with the help of having a rich UI for demonstrating the flow of the request.
+  - Tools: OpenTelemetry, Jeager, Zipkin
