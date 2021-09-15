@@ -2,6 +2,7 @@
 - https://gist.github.com/vasanthk/485d1c25737e8e72759f
 - https://github.com/yangshun/tech-interview-handbook/blob/master/experimental/design/README.md
 - https://github.com/donnemartin/system-design-primer
+- System Design Master Plan: https://github.com/mohsenshafiei/system-design-master-plan
 
 # Software architecture
 - https://github.com/chanakaudaya/solution-architecture-patterns
