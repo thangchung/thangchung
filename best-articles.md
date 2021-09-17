@@ -10,9 +10,12 @@
 ## Git
 - https://betterexplained.com/articles/intro-to-distributed-version-control-illustrated/
 
+## Container
+- https://www.ianlewis.org/en/container-runtimes-part-1-introduction-container-r
+- https://github.com/saschagrunert/demystifying-containers
+
 ## Distributed computing
 ### Storage
-
 - https://www.allthingsdistributed.com/2008/12/eventually_consistent.html
 - https://martin.kleppmann.com/2015/05/11/please-stop-calling-databases-cp-or-ap.html
 - http://dbmsmusings.blogspot.com/2010/08/problems-with-acid-and-how-to-fix-them.html
@@ -50,6 +53,7 @@
 
 ## Cache
 - Strategy and usecase: https://medium.datadriveninvestor.com/all-things-caching-use-cases-benefits-strategies-choosing-a-caching-technology-exploring-fa6c1f2e93aa
+- https://online.grokking.org/articles/28/phan-chia-du-lieu-cache-tren-cum-server-voi-consistent-hashing
 
 
 ## Cloud design patterns
@@ -62,9 +66,16 @@
     - https://github.com/mspnp/aks-fabrikam-dronedelivery
 - https://github.com/mtdvio/every-programmer-should-know#distributed-systems
 - A lot of cloud patterns: https://github.com/DovAmir/awesome-design-patterns
+- https://batnamv.medium.com/system-design-c%C6%A1-b%E1%BA%A3n-v%E1%BB%81-thi%E1%BA%BFt-k%E1%BA%BF-h%E1%BB%87-th%E1%BB%91ng-218cb6059e2a#41b4
+
+# Software Engineering
+- https://aim42.github.io
 
 # Presenstions
 - https://github.com/techgaun/awesome-programming-presentations
+- Make better conference talks: https://jvns.ca/blog/2016/06/06/make-better-conference-talks/
+- How to Give Great Technical Presentations: https://dev.to/stephenfluin/how-to-give-great-technical-presentations-2j76
+
 
 # Books
 - https://github.com/arkon108/book-reviews/blob/master/summaries/004-peopleware.md
