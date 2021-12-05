@@ -28,24 +28,28 @@ Here are some ideas to get you started:
 
 # ⚡ Favorite languages and tools
 
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png"></code>
+<!--<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/csharp/csharp.png"></code>
 <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/rust/rust.png"></code>
 <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
 <code><img height="32" src="https://raw.githubusercontent.com/github/explore/5c058a388828bb5fde0bcafd4bc867b5bb3f26f3/topics/graphql/graphql.png"></code>
 <code><img height="32" src="https://raw.githubusercontent.com/github/explore/3fd951e49a8e2af94627092d80c236c00df95ae3/topics/grpc/grpc.png"></code>
 <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kubernetes/kubernetes.png"></code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code> 
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kubernetes/kubernetes.png"></code>-->
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thangchung&hide=css,html,powershell,elm,php,javascript&show_icons=true&count_private=true&theme=algolia&layout=compact" alt="thangchung" />
 
+# :octocat: Github contributions
+
+<img src="https://github-readme-stats.vercel.app/api?username=thangchung&show_icons=true&count_private=true&theme=algolia" alt="thangchung" />
 
 # 📫 How to reach me
 
 [Twitter](https://twitter.com/thangchung), [Dev.to](https://dev.to/thangchung), [Medium](https://medium.com/@thangchung), [Linkedin](https://www.linkedin.com/in/thang-chung-2b475614), [StackOverflow](https://stackoverflow.com/users/525811/thangchung), [SlideShare](https://www.slideshare.net/thangchung), [SpeakerDeck](https://speakerdeck.com/thangchung)
 
+<!--
 <p align="left">
-  <!--<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thangchung&layout=compact" alt="thangchung" />&nbsp;-->
   <img src="https://github-readme-stats.vercel.app/api?username=thangchung&show_icons=true&count_private=true&theme=algolia" alt="thangchung" />
-</p>
+</p> -->
 
 <!--
 <a href="https://www.buymeacoffee.com/thangchung" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-green.png" alt="Buy Me A Beer" style="height: 51px !important;width: 217px !important;" ></a>
