@@ -44,7 +44,7 @@ Here are some ideas to get you started:
 
 # 📫 How to reach me
 
-[Twitter](https://twitter.com/thangchung), [Dev.to](https://dev.to/thangchung), [Medium](https://medium.com/@thangchung), [Linkedin](https://www.linkedin.com/in/thang-chung-2b475614), [StackOverflow](https://stackoverflow.com/users/525811/thangchung), [SlideShare](https://www.slideshare.net/thangchung), [SpeakerDeck](https://speakerdeck.com/thangchung)
+[Twitter](https://twitter.com/thangchung), [Dev.to](https://dev.to/thangchung), [Medium](https://medium.com/@thangchung), [HashNode](https://hashnode.com/@thangchungatwork), [Linkedin](https://www.linkedin.com/in/thang-chung-2b475614), [StackOverflow](https://stackoverflow.com/users/525811/thangchung), [SlideShare](https://www.slideshare.net/thangchung), [SpeakerDeck](https://speakerdeck.com/thangchung)
 
 <!--
 <p align="left">
