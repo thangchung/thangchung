@@ -46,6 +46,8 @@ Here are some ideas to get you started:
 
 [Twitter](https://twitter.com/thangchung), [Dev.to](https://dev.to/thangchung), [Medium](https://medium.com/@thangchung), [HashNode](https://hashnode.com/@thangchungatwork), [Linkedin](https://www.linkedin.com/in/thang-chung-2b475614), [StackOverflow](https://stackoverflow.com/users/525811/thangchung), [SlideShare](https://www.slideshare.net/thangchung), [SpeakerDeck](https://speakerdeck.com/thangchung)
 
+Some tips and tricks for setting up the local development environment can be find at [local_dev.md](local_dev.md)
+
 <!--
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api?username=thangchung&show_icons=true&count_private=true&theme=algolia" alt="thangchung" />
