@@ -38,15 +38,15 @@ Here are some ideas to get you started:
 <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/kubernetes/kubernetes.png"></code>-->
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=thangchung&hide=css,html,powershell,elm,php,javascript&show_icons=true&count_private=true&theme=algolia&layout=compact" alt="thangchung" />
 
-# :octocat: Github contributions
+# :octocat: GitHub contributions
 
 <img src="https://github-readme-stats.vercel.app/api?username=thangchung&show_icons=true&count_private=true&theme=algolia" alt="thangchung" />
 
 # 📫 How to reach me
 
-[Twitter](https://twitter.com/thangchung), [Dev.to](https://dev.to/thangchung), [Medium](https://medium.com/@thangchung), [HashNode](https://hashnode.com/@thangchungatwork), [Linkedin](https://www.linkedin.com/in/thang-chung-2b475614), [StackOverflow](https://stackoverflow.com/users/525811/thangchung), [SlideShare](https://www.slideshare.net/thangchung), [SpeakerDeck](https://speakerdeck.com/thangchung)
+[Twitter](https://twitter.com/thangchung), [Dev.to](https://dev.to/thangchung), [Credly](https://www.credly.com/users/thangchung), [Medium](https://medium.com/@thangchung), [HashNode](https://hashnode.com/@thangchungatwork), [Linkedin](https://www.linkedin.com/in/thang-chung-2b475614), [StackOverflow](https://stackoverflow.com/users/525811/thangchung), [SlideShare](https://www.slideshare.net/thangchung), [SpeakerDeck](https://speakerdeck.com/thangchung)
 
-Some tips and tricks for setting up the local development environment can be find at [local_dev.md](local_dev.md)
+Some tips and tricks for setting up the local development environment can be found at [local_dev.md](local_dev.md)
 
 <!--
 <p align="left">
