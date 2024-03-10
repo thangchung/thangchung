@@ -46,7 +46,9 @@ Here are some ideas to get you started:
 
 [Twitter](https://twitter.com/thangchung), [Dev.to](https://dev.to/thangchung), [Credly](https://www.credly.com/users/thangchung), [Medium](https://medium.com/@thangchung), [HashNode](https://hashnode.com/@thangchungatwork), [Linkedin](https://www.linkedin.com/in/thang-chung-2b475614), [StackOverflow](https://stackoverflow.com/users/525811/thangchung), [SlideShare](https://www.slideshare.net/thangchung), [SpeakerDeck](https://speakerdeck.com/thangchung)
 
-Some tips and tricks for setting up the local development environment can be found at [local_dev.md](local_dev.md)
+Some tips and tricks for setting up the local development environment can be found at:
+- [local_dev.md](local_dev.md)
+- [Windows 11](https://gist.github.com/thangchung/cae1a33c0a6a2bc76fa6e6b7bef05b28)
 
 <!--
 <p align="left">
